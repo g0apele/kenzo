@@ -1,0 +1,21 @@
+KENZO LEHE LISAMINE GITHUBI
+
+1. Paki ZIP-fail oma arvutis lahti.
+2. Ava https://github.com/g0apele/kenzo
+3. Vajuta „Add file“ ja seejärel „Upload files“.
+4. Lohista üleslaadimisaknasse kõik lahtipakitud failid:
+   - index.html
+   - styles.css
+   - script.js
+   - favicon.svg
+   - og.png
+   - README.md
+5. Vajuta „Commit changes“.
+6. Ava repos „Settings“ → „Pages“.
+7. Vali „Deploy from a branch“.
+8. Vali haru „main“ ja kaust „/(root)“, seejärel vajuta „Save“.
+
+Pärast avaldamist asub leht aadressil:
+https://g0apele.github.io/kenzo/
+
+QR-kood tuleb suunata sellele aadressile.
