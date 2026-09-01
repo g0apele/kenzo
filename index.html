@@ -3,87 +3,130 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#f7f0e4" />
+    <meta name="theme-color" content="#16201c" />
+
     <meta
       name="description"
-      content="Kenzo elab Taara ja Kruusa tänava piirkonnas. Kui näed teda kodupiirkonnast kaugemal, anna tema inimesele märku."
+      content="Hei, mina olen Kenzo. Minu tavapärane liikumisala on Taara ja Kruusa tänava ümbrus ning minu inimesed näevad GPS-i abil, kus ma olen."
     />
+
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="et_EE" />
-    <meta property="og:title" content="Olen Kenzo – ma ei ole kadunud" />
+    <meta property="og:title" content="Kenzo 🐾 – info ja kontakt" />
     <meta
       property="og:description"
-      content="Nägid Kenzot Taara/Kruusa tänava piirkonnast kaugemal? Anna tema inimesele märku."
+      content="Kui kohtad Kenzot Taara ja Kruusa tänava ümbruses, on üldjuhul kõik hästi. Kui ta on kaugemal või tekitab muret, saad omanikele kohe asukoha saata."
     />
     <meta property="og:image" content="https://g0apele.github.io/kenzo/og.png" />
     <meta name="twitter:card" content="summary_large_image" />
+
     <link rel="canonical" href="https://g0apele.github.io/kenzo/" />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Kenzo – ma ei ole kadunud</title>
+
+    <title>Kenzo 🐾 – info ja kontakt</title>
   </head>
+
   <body>
     <main class="site-shell">
-      <div class="ambient ambient-one" aria-hidden="true"></div>
-      <div class="ambient ambient-two" aria-hidden="true"></div>
-
       <article class="kenzo-card">
-        <header class="identity-row">
-          <div class="kenzo-mark" aria-hidden="true">
-            K
-            <span class="tracker-dot"></span>
-          </div>
-          <div>
-            <p class="eyebrow">Hei, mina olen</p>
-            <p class="name">Kenzo</p>
-          </div>
-          <div class="safe-badge">
-            <span aria-hidden="true">✓</span>
-            Kõik on hästi
-          </div>
-        </header>
 
-        <section class="hero-copy">
-          <p class="kicker">Oluline teade</p>
-          <h1>Ma ei ole kadunud.</h1>
-          <p class="lead">
-            Minu kodu asub <strong>Taara ja Kruusa tänava piirkonnas</strong>
-            ning liigun vahel iseseisvalt ümbruskonnas.
+        <!-- HERO -->
+        <section class="kenzo-hero" aria-labelledby="kenzo-title">
+          <div class="hero-shade" aria-hidden="true"></div>
+
+          <div class="hero-content">
+            <div class="hero-top">
+              <div class="kenzo-mark" aria-hidden="true">
+                K
+                <span class="tracker-dot"></span>
+              </div>
+
+              <div class="gps-badge">
+                <span class="gps-dot" aria-hidden="true"></span>
+                GPSiga jälgitav
+              </div>
+            </div>
+
+            <div class="hero-copy">
+              <p class="eyebrow">Hei, mina olen</p>
+              <h1 id="kenzo-title">Kenzo <span aria-hidden="true">🐾</span></h1>
+
+              <p class="hero-lead">
+                Mul võib vahel olla natuke tõsine või isegi kuri nägu,
+                aga tegelikult on mul süda soe.
+              </p>
+
+              <div class="home-note">
+                <span aria-hidden="true">⌂</span>
+                <p>
+                  Ma tean, kus mu kodu on ja minu inimesed teavad, kus mina olen.
+                  Nad ootavad mind koju.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- PÕHIINFO -->
+        <section class="intro-section">
+          <p class="section-label">Hea teada</p>
+
+          <h2>Kui näed mind kodukandis, on üldjuhul kõik hästi.</h2>
+
+          <p>
+            Ma <strong>ei ole vabakäigukass</strong>. Kui olen õues, siis on minu
+            inimene sellest teadlik ning jälgib minu asukohta GPS-seadme abil.
           </p>
-        </section>
 
-        <section class="info-grid" aria-label="Info Kenzo kohta">
-          <div class="info-item">
-            <span class="icon-wrap">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <circle cx="12" cy="12" r="7"></circle>
-                <circle cx="12" cy="12" r="2.5"></circle>
-                <path d="M12 2v3M12 19v3M2 12h3M19 12h3"></path>
-              </svg>
-            </span>
+          <p>
+            Minu tavapärane liikumisala on
+            <strong>Taara ja Kruusa tänava ümbrus</strong>.
+          </p>
+
+          <div class="please-note">
+            <span class="please-icon" aria-hidden="true">♡</span>
             <div>
-              <h2>Mul on GPS-seade</h2>
-              <p>Minu inimene näeb, kus ma parasjagu liigun.</p>
-            </div>
-          </div>
-          <div class="info-item alert-item">
-            <span class="icon-wrap">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"></path>
-                <circle cx="12" cy="10" r="2.5"></circle>
-              </svg>
-            </span>
-            <div>
-              <h2>Anna märku ainult siis…</h2>
-              <p>…kui näed mind Taara/Kruusa tänava piirkonnast kaugemal.</p>
+              <h3>Palun ära vii mind kaasa</h3>
+              <p>
+                Kui kohtad mind siin kandis, olen tõenäoliselt lihtsalt oma
+                tavalisel ringil ja lähen ise koju tagasi.
+              </p>
             </div>
           </div>
         </section>
 
+        <!-- MILLAL ÜHENDUST VÕTTA -->
+        <section class="when-section">
+          <div class="when-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 21s-7-5.2-7-11a7 7 0 1 1 14 0c0 5.8-7 11-7 11Z"></path>
+              <circle cx="12" cy="10" r="2.3"></circle>
+            </svg>
+          </div>
+
+          <div>
+            <p class="section-label">Millal võiksid märku anda?</p>
+            <h2>Kui olen tavapärasest piirkonnast eemal või tekitan muret.</h2>
+
+            <p>
+              Kui näed mind <strong>Taara ja Kruusa tänava piirkonnast selgelt
+              kaugemal</strong> või minu kohalolek tekitab kellelegi
+              <strong>muret, ebamugavust või pahandust</strong>, siis anna palun
+              minu inimestele teada.
+            </p>
+          </div>
+        </section>
+
+        <!-- ASUKOHA JAGAMINE -->
         <section class="actions" aria-labelledby="help-heading">
           <div class="action-heading">
-            <p class="kicker">Kas olen liiga kaugele jõudnud?</p>
-            <h2 id="help-heading">Saada minu inimesele asukoht</h2>
+            <p class="section-label light-label">Kõige kiirem viis aidata</p>
+            <h2 id="help-heading">Anna minu inimestele teada, kus ma olen</h2>
+            <p>
+              Saad neile kohe saata minu praeguse asukoha või võtta ühendust
+              telefoni teel.
+            </p>
           </div>
 
           <button class="primary-button" id="share-location" type="button">
@@ -91,29 +134,52 @@
               <path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"></path>
               <circle cx="12" cy="10" r="2.5"></circle>
             </svg>
-            <span>Jaga asukohta SMS-iga</span>
+            <span>
+              <strong>Saada minu asukoht omanikele</strong>
+              <small>Avab valmis SMS-i numbrile 5555 26 28</small>
+            </span>
           </button>
 
-          <a class="secondary-button" href="tel:+37255552628">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M6.6 10.8a15.3 15.3 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24c1.08.36 2.24.55 3.43.55a1 1 0 0 1 1 1v3.4a1 1 0 0 1-1 1C10.58 20.9 3.1 13.42 3.1 4.2a1 1 0 0 1 1-1h3.4a1 1 0 0 1 1 1c0 1.2.2 2.35.55 3.43a1 1 0 0 1-.25 1Z"></path>
-            </svg>
-            <span>Helista 5555 26 28</span>
-          </a>
+          <div class="contact-grid">
+            <a class="contact-button" href="tel:+37255552628">
+              <span class="contact-icon" aria-hidden="true">☎</span>
+              <span>
+                <strong>Helista</strong>
+                <small>5555 26 28</small>
+              </span>
+            </a>
+
+            <a
+              class="contact-button"
+              href="sms:+37255552628?body=Tere!%20Soovin%20anda%20Kenzost%20märku."
+            >
+              <span class="contact-icon" aria-hidden="true">✉</span>
+              <span>
+                <strong>Saada SMS</strong>
+                <small>5555 26 28</small>
+              </span>
+            </a>
+          </div>
 
           <p class="privacy-note">
-            Sinu asukoht lisatakse SMS-i ainult siis, kui vajutad nuppu ja annad
-            telefonis loa. Enne saatmist saad sõnumi üle vaadata.
+            Asukohta ei jagata automaatselt. Kui vajutad asukoha saatmise nuppu,
+            küsib telefon enne sinu luba ning avab SMS-i, mille saad enne saatmist
+            üle vaadata.
           </p>
+
           <p class="status" id="status" aria-live="polite"></p>
         </section>
 
         <footer>
           <span aria-hidden="true">🐾</span>
-          Aitäh, et hoolid minu turvalisusest!
+          <p>
+            Aitäh, et mul silma peal hoiad! Kui kõik tundub tavapärane,
+            võid mind lihtsalt oma kassiasju edasi ajama jätta.
+          </p>
         </footer>
       </article>
     </main>
+
     <script src="script.js"></script>
   </body>
 </html>
